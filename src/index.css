@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #070707 !important;
+  font-family: 'Mulish', sans-serif !important;
+  
+}
+
+.navbarPanel{
+  background-color: black !important;
+}
+
+.navbar a{
+  color: #02f093 !important;
+  
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: #02f093 !important;
+  font-family: 'Cinzel Decorative', cursive !important;
+}
+
+.navbar a{
+  font-size: 1.3rem;
+  text-transform:capitalize;
+}
+
+.navbar a:hover{
+  color: #ffff !important;
+}
+
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #02f093;
+}
+
+#header {
+  width: 100%;
+  height: 60vh;
+  margin-top: 70px;
+}
+
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight:700;
+  color: black;
+}
+
+#header strong{
+  color: #02f093;
+  font-family: 'Cinzel Decorative', cursive !important;
+  
+}
+
+#header h1{
+    color: #ffff;
+}
+
+.subheader{
+  color: #D0CA9C;
+}
+
+#header .btn-get-started{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display:inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #02f093;
+  border: 2px solid #02f093;
+  text-decoration: none;
+
+}
+
+#header .btn-get-started:hover{
+  background-color: #02f093;
+  color: #fff; 
+}
+
+#header-img{
+  text-align: right;
+}
+
+#header .animated{
+  animation : up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0%{
+    transform: translateY(10px); 
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0%{
+    transform: translateY(10px); 
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+.service-name{
+  color: #ffff;
+}
+
+
+.work-experience h1{
+  color: #02f093;
+}
+
+.work-experience .subhead{
+  color: #ffff;
+}
+
+#company-details{
+  font-size: 1.5rem;
+  color: #D0CA9C;
+}
+
+#company-name{
+  font-size: 1.5rem;
+  color: #ffff;
+}
+
+.tech-info h1{
+  color: #02f093;
+}
+
+.tech-info span{
+  font-size: 2rem;
+  color: #D0CA9C;
+}
+
+.tech-info .btn{
+  transition: 0.5s;
+  color: #02f093;
+  border-radius: 20px;
+  text-decoration: none;
+  background: none;
+  border: 2px solid #02f093;
+}
+
+
+.education h1{
+  color:#02f093
+}
+
+.degree-text{
+  font-size: 2rem;
+  color: #D0CA9C;
+}
+
+ .institute-text{
+  font-size: 1.5rem;
+  color: #ffff;
+}
+
+.project1 h1{
+  color:#02f093
+}
+
+.project-head{
+  font-size: 2rem;
+  color: #D0CA9C;
+}
+
+ .project-subhead{
+  font-size: 1.5rem;
+  color: #ffff;
+}
+
+.tech-info h2{
+  color: #D0CA9C;
+}
+
+.desc{
+  color: #D0CA9C;
+}
+
+.contact h1{
+  color: #02f093;
+}
+
+.links .icon li{
+  font-size: 2.5rem;
+  color: #02f093 !important;
+  text-decoration: none;
+}
+
+.links .icon li a{
+  color: #02f093 !important;
+}
+
+.btn-resume{
+  transition: 0.5s;
+  color: #02f093 !important;
+  border-radius: 20px;
+  text-decoration: none;
+  background: none;
+  border: 2px solid #02f093;
+}
+
+.resume a{
+  text-decoration: none;
+}
